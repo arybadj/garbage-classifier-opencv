@@ -1,0 +1,13 @@
+{
+    "name": "Garbage Classifier",
+    "image": "mcr.microsoft.com/devcontainers/python:3.9",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-toolsai.jupyter"
+            ]
+        }
+    },
+    "postCreateCommand": "pip install opencv-python tensorflow numpy matplotlib"
+}
